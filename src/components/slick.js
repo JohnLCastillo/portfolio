@@ -1,24 +1,26 @@
-var React = require('react');
-var Slider = require('react-slick');
+import React, { Component } from 'react';
+import Slider from 'react-slick';
 
-class Slick extends React.Component {
+class Slick extends Component {
   render() {
     let settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        className: 'slides'
     };
     return (
-      <div className='slider'>
+      <div className='box-slider'>
         <Slider {...settings}>
-            <div><h3>1</h3></div>
-            <div><h3>2</h3></div>
-            <div><h3>3</h3></div>
-            <div><h3>4</h3></div>
-            <div><h3>5</h3></div>
-            <div><h3>6</h3></div>
+            <div>
+                <img alt='' src="http://gbchope.com/wp-content/uploads/2016/10/events-placeholder.jpg"/>
+                <p>Here is my project that cures cancer</p>
+            </div>
+            <div>
+                <img alt='' src="http://www.germandrive.com/wp-content/uploads/2017/05/placeholder.gif"/>
+                <p>Here is my project that cures world hunger</p>
+            </div>
         </Slider>
       </div>
     );

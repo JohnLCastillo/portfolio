@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './components/nav-bar';
 import Slick from './components/slick';
-// import Mouse from './components/mouse'
+import Mouse from './components/mouse'
 
 class App extends Component {
   render() {
@@ -13,8 +13,9 @@ class App extends Component {
           Front-End developer & Tech enthusiast<br/>
            from Bronxville, NY.
         </h1>
-        <Nav/>
         <Slick/>
+        <Nav/>
+        <Mouse/>
       </div>
     );
   }

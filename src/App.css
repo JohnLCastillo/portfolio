@@ -1,9 +1,10 @@
 body {
   text-align: center;
-  background-color: #ddd7d7;
+  background-color: #ddd7d748;
   height: 150px;
   color: black;
-  font-family: Proxima Nova Regular,serif
+  font-family: 'Lora', serif;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 
@@ -24,7 +25,6 @@ span {
 }
 
 a:hover {
-  color: peru;
   border-bottom: double black;
 }
 
@@ -45,4 +45,15 @@ a:link, a:visited {
   transform: translate(-50%,-50%);
   font-size: xx-large;
 }
+
+.box-slider { 
+  position: fixed;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-40%);
+  width: 60%;
+  color: #333; 
+}
+
+
 
