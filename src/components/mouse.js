@@ -15,9 +15,9 @@ class Mouse extends React.Component {
     const { x, y } = this.state;
     return (
       <div onMouseMove={this._onMouseMove.bind(this)}>
-        <h1>
+        {/* <h1>
           Mouse coordinates: {x} {y}
-        </h1>
+        </h1> */}
       </div>
     );
   }
