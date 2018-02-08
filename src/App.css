@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-color: #ddd7d7;
+  height: 150px;
+  color: black;
+  font-family: Proxima Nova Regular,serif
+}
+
+
+.nav-bar {
+  font-size:14px;
+  line-height:1.75em;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 0;
+  
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+span {
+  margin: 0 1em 0 1em;
+}
+
+a:hover {
+  color: peru;
+  border-bottom: double black;
+}
+
+a:link, a:visited {
+  color: #5c5edc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: xx-large;
+}
+
