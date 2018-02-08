@@ -5,6 +5,7 @@ body {
   color: black;
   font-family: 'Open Sans', sans-serif;
   text-shadow: 4px 4px 4px #aaa;
+  /* viewport: 100%; */
 }
 
 
