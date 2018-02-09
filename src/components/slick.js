@@ -14,11 +14,11 @@ class Slick extends Component {
       <div className='box-slider'>
         <Slider {...settings}>
             <div>
-                <img alt='' src="http://gbchope.com/wp-content/uploads/2016/10/events-placeholder.jpg"/>
+                <img alt='' src="http://www.mahsusat.com/images/other/672.jpg" height="602" width="902"/>
                 <p>Here is my project that cures cancer</p>
             </div>
             <div>
-                <img alt='' src="http://www.germandrive.com/wp-content/uploads/2017/05/placeholder.gif"/>
+                <img alt='' src="https://paradojadekaldor.files.wordpress.com/2017/12/italy-2080072_1280.jpg?w=1100" height="602" width="902"/>
                 <p>Here is my project that cures world hunger</p>
             </div>
         </Slider>

@@ -4,18 +4,14 @@ body {
   height: 150px;
   color: black;
   font-family: 'Open Sans', sans-serif;
-  text-shadow: 4px 4px 4px #aaa;
-  /* viewport: 100%; */
 }
-
 
 .nav-bar {
   font-size:14px;
   line-height:1.75em;
   text-transform: uppercase;
-  position: fixed;
+  /* position: absolute; */
   bottom: 0;
-  
   text-align: center;
   width: 100%;
   padding-bottom: 20px;
@@ -33,28 +29,59 @@ a:link, a:visited {
   color: #5c5edc;
   text-decoration: none;
   font-weight: bold;
-}
-
-.App-title {
-  /* font-size: 1.5em; */
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 .App-intro {
-  position: fixed;
-  top: 30%;
+  position: absolute;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: xx-large;
 }
 
 .box-slider { 
-  position: fixed;
-  top: 65%;
-  left: 50%;
+  position: relative;
+  top: 40%;
+  left: 70%;
   transform: translate(-50%,-40%);
-  width: 60%;
+  width: 30%;
   color: #333; 
 }
 
+.first-page, .second-page, .third-page {
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%,-40%);
+}
+
+.img1 {
+  position: relative;
+  top: 90%;
+}
+
+.img2 {
+  position: relative;
+  top: 50%;
+}
+
+.img-container {
+  padding-left: 1000px;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 
 
